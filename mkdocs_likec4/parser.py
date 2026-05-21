@@ -75,4 +75,4 @@ class LikeC4Parser:
             attrs += f' browser="{opts.browser}"'
         if opts.dynamic_variant != "diagram":
             attrs += f' dynamic-variant="{opts.dynamic_variant}"'
-        return f'<{tag} {attrs}></{tag}>'
+        return f"<{tag} {attrs}></{tag}>"
